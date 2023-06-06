@@ -23,10 +23,10 @@ function Questao3(){
             setResultado("Acertou! O número era: "+numeroSorteado);
             reinicair();
         }else if(tentiva > numeroSorteado){
-            setResultado("Errou! O número sorteado é maior que "+tentiva + tentativas+ "tentativas restantes");
+            setResultado("Errou! O número sorteado é maior que "+tentiva + tentativas+ " tentativas restantes");
             setTentativas(tentativasRestante -= 1)
         }else if(tentiva < numeroSorteado){
-            setResultado("Errou! O número sorteado é menor que "+tentiva + tentativas+ "tentativas restantes");
+            setResultado("Errou! O número sorteado é menor que "+tentiva + tentativas+ " tentativas restantes");
             setTentativas(tentativasRestante -= 1)
         }
 
