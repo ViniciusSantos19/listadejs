@@ -7,6 +7,7 @@ function Menu(){
              <li><Link to="/">Home</Link></li>
             <li><Link to="/q1" className="active">Questão 1</Link></li>
             <li><Link to="/q2" className="active">Questão 2</Link></li>
+            <li><Link to="/q3" className="active">Questão 3</Link></li>
         </ul>
     )
 } export default Menu;
